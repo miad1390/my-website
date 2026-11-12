@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>میعاد عابد | وب‌سایت شخصی</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <canvas id="particles"></canvas>
+    <div id="mouse-glow"></div>
+
+    <!-- صفحه خوش‌آمدگویی -->
+    <section id="welcome">
+        <div class="welcome-box">
+
+            <div class="logo">MA</div>
+
+            <p class="small-title">WELCOME TO MY WEBSITE</p>
+
+            <h2>به وب‌سایت شخصی من خوش آمدید</h2>
+            <p>Welcome to my personal website</p>
+
+            <h1>سلام، من میعاد عابد هستم.</h1>
+            <h2>Hello, I'm Miad Abed.</h2>
+
+            <p>
+                دانش‌آموز رشته کامپیوتر و علاقه‌مند به طراحی وب و تکنولوژی.
+            </p>
+
+            <p>
+                A computer student passionate about web design and technology.
+            </p>
+
+            <button onclick="enterSite()">ورود به وب‌سایت</button>
+
+        </div>
+    </section>
+
+    <!-- صفحه اصلی -->
+    <main id="dashboard" class="hidden">
+
+        <header>
+            <div class="logo">MA</div>
+
+            <div>
+                <h2>میعاد عابد</h2>
+                <p>وب‌سایت شخصی من</p>
+            </div>
+            <button id="themeToggle" onclick="toggleTheme()">☀️ حالت روز</button>
+        </header>
+
+        <section class="welcome-text">
+            <h1>سلام، خوش اومدید!</h1>
+            <p>به دنیای شخصی من خوش آمدید.</p>
+        </section>
+
+        <!-- ساعت و تاریخ -->
+        <div class="live-clock">
+            <div id="clock">۰۰:۰۰:۰۰</div>
+            <div id="date"></div>
+        </div>
+
+        <!-- بخش‌های سایت -->
+        <section class="cards">
+
+            <button class="card" onclick="showPage('profile')">
+                <span>👤</span>
+                <h3>درباره من</h3>
+                <p>آشنایی با زندگی و علاقه‌مندی‌های من</p>
+            </button>
+
+            <button class="card" onclick="showPage('projects')">
+                <span>💻</span>
+                <h3>پروژه‌های من</h3>
+                <p>نگاهی به کارها و ساخته‌های من</p>
+            </button>
+
+            <button class="card" onclick="showPage('skills')">
+                <span>⚙️</span>
+                <h3>مهارت‌های من</h3>
+                <p>مهارت‌ها و آموخته‌های من</p>
+            </button>
+
+            <button class="card" onclick="showPage('contact')">
+                <span>📩</span>
+                <h3>ارتباط با من</h3>
+                <p>راه‌های ارتباطی با من</p>
+            </button>
+
+        </section>
+
+        <!-- نمایش محتوای بخش‌ها -->
+        <section id="content" class="content hidden">
+            <button class="back" onclick="backHome()">بازگشت</button>
+            <div id="pageContent"></div>
+        </section>
+
+        <footer>
+            © 2026 Miad Abed | تمام حقوق محفوظ است.
+        </footer>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
