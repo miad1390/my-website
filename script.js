@@ -31,63 +31,111 @@ function showPage(page) {
 
                 <div class="profile-avatar">MA</div>
 
-                <h2>درباره من | میعاد عابد</h2>
+               
+<div class="profile-card">
 
-                <div class="profile-line"></div>
+    <div class="profile-avatar">MA</div>
 
-                <p>  
-                         سلام! من میعاد عابد هستم، ۱۵ ساله                        .  در حال حاضر دانش‌آموز پایه دهم رشته کامپیوتر
- 
-                </p>
+    <h2>درباره من | میعاد عابد</h2>
+    <p class="english-subtitle">About Me | Miad Abed</p>
 
-                <p>
-                    از کودکی به دنیای تکنولوژی علاقه داشتم؛
-                    به‌خصوص گوشی‌های هوشمند، لپ‌تاپ و دنیای کامپیوتر.
-                    همین علاقه باعث شد رشته کامپیوتر رو
-                    برای ادامه تحصیل انتخاب کنم.
-                </p>
+    <div class="profile-line"></div>
 
-                <p>
-                    در ابتدا به تدوین و ویرایش ویدیو علاقه‌مند بودم،
-                    اما بعد از آشنایی با طراحی سایت، این حوزه توجه من رو
-                    بیشتر از قبل به خودش جلب کرد.
-                    حالا بخش زیادی از زمانم رو به یادگیری طراحی وب
-                    اختصاص می‌دم و از نرم‌افزار Visual Studio Code
-                    برای نوشتن و ویرایش کدها استفاده می‌کنم.
-                </p>
+    <p>
+        سلام! من میعاد عابد هستم، ۱۵ ساله.
+        در حال حاضر دانش‌آموز پایه دهم رشته کامپیوتر هستم.
+    </p>
+    <p class="english-subtitle" dir="ltr">
+        Hello! My name is Miad Abed, and I am 15 years old.
+        I am currently a tenth-grade computer science student.
+    </p>
 
-                <p>
-                    علاوه بر طراحی سایت، به نگهداری، عیب‌یابی و تعمیر
-                    سیستم‌های کامپیوتری هم علاقه دارم.
-                    همیشه دوست دارم چیزهای تازه یاد بگیرم،
-                    مهارت‌هام رو گسترش بدم و ایده‌هام رو
-                    به پروژه‌های واقعی تبدیل کنم.
-                </p>
+    <p>
+        از کودکی به دنیای تکنولوژی علاقه داشتم؛
+        به‌خصوص گوشی‌های هوشمند، لپ‌تاپ و دنیای کامپیوتر.
+        همین علاقه باعث شد رشته کامپیوتر رو
+        برای ادامه تحصیل انتخاب کنم.
+    </p>
+    <p class="english-subtitle" dir="ltr">
+        I have been interested in technology since childhood,
+        especially smartphones, laptops, and computers.
+        This interest inspired me to choose computer studies
+        for my education.
+    </p>
 
-                <p>
-                    در کنار علاقه‌مندی‌های فنی، از وقت‌گذرانی
-                    با دوستانم و تجربه‌کردن چیزهای جدید لذت می‌برم.
-                </p>
+    <p>
+        در ابتدا به تدوین و ویرایش ویدیو علاقه‌مند بودم،
+        اما بعد از آشنایی با طراحی سایت، این حوزه توجه من رو
+        بیشتر از قبل به خودش جلب کرد.
+        حالا بخش زیادی از زمانم رو به یادگیری طراحی وب
+        اختصاص می‌دم و از نرم‌افزار Visual Studio Code
+        برای نوشتن و ویرایش کدها استفاده می‌کنم.
+    </p>
+    <p class="english-subtitle" dir="ltr">
+        At first, I was interested in video editing.
+        However, after discovering web design, I became
+        even more interested in this field.
+        Now I spend much of my time learning web development
+        and use Visual Studio Code to write and edit code.
+    </p>
 
-                <h3>هدف من</h3>
+    <p>
+        علاوه بر طراحی سایت، به نگهداری، عیب‌یابی و تعمیر
+        سیستم‌های کامپیوتری هم علاقه دارم.
+        همیشه دوست دارم چیزهای تازه یاد بگیرم،
+        مهارت‌هام رو گسترش بدم و ایده‌هام رو
+        به پروژه‌های واقعی تبدیل کنم.
+    </p>
+    <p class="english-subtitle" dir="ltr">
+        Besides web design, I am also interested in
+        maintaining, troubleshooting, and repairing computer systems.
+        I always enjoy learning new things, improving my skills,
+        and turning my ideas into real projects.
+    </p>
 
-                <p>
-                    اینه که در آینده به یک طراح وب حرفه‌ای تبدیل بشم،
-                    وب‌سایت‌هایی زیبا، کاربردی و باکیفیت بسازم
-                    و از راه علاقه و مهارتم به درآمد برسم.
-                </p>
+    <p>
+        در کنار علاقه‌مندی‌های فنی، از وقت‌گذرانی
+        با دوستانم و تجربه‌کردن چیزهای جدید لذت می‌برم.
+    </p>
+    <p class="english-subtitle" dir="ltr">
+        Alongside my technical interests, I enjoy spending
+        time with my friends and experiencing new things.
+    </p>
 
-                <p>
-                    به مسیری که انتخاب کردم افتخار می‌کنم و می‌دونم
-                    برای رسیدن به هدف‌هام باید قدم‌به‌قدم
-                    یاد بگیرم و پیشرفت کنم.
-                </p>
+    <h3>هدف من</h3>
+    <p class="english-subtitle">My Goal</p>
 
-                <div class="profile-tag">
-                    به اولین وب‌سایت شخصی من خوش آمدید!
-                </div>
+    <p>
+        اینه که در آینده به یک طراح وب حرفه‌ای تبدیل بشم،
+        وب‌سایت‌هایی زیبا، کاربردی و باکیفیت بسازم
+        و از راه علاقه و مهارتم به درآمد برسم.
+    </p>
+    <p class="english-subtitle" dir="ltr">
+        My goal is to become a professional web designer,
+        create beautiful, useful, and high-quality websites,
+        and earn an income through my passion and skills.
+    </p>
 
-            </div>
+    <p>
+        به مسیری که انتخاب کردم افتخار می‌کنم و می‌دونم
+        برای رسیدن به هدف‌هام باید قدم‌به‌قدم
+        یاد بگیرم و پیشرفت کنم.
+    </p>
+    <p class="english-subtitle" dir="ltr">
+        I am proud of the path I have chosen.
+        I know that reaching my goals requires me to
+        keep learning and improving step by step.
+    </p>
+
+    <div class="profile-tag">
+        به اولین وب‌سایت شخصی من خوش آمدید!
+    </div>
+    <p class="english-subtitle" dir="ltr">
+        Welcome to my first personal website!
+    </p>
+
+</div>
+
         `,
 
         projects: `
